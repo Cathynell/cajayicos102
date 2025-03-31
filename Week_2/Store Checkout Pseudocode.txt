@@ -1,0 +1,16 @@
+	START
+	PRINT “WELCOME TO STORE CHECKOUT!” 
+	SET total_price = 0 
+	FOR each item [1..]
+	ASK the user to input the name of each item to be checked out
+	ASK user to input the price of each item
+	ADD the price to total_price.
+
+	PRINT “Total Price:”, total_price 
+	ASK the user to input payment.
+	IF payment is >= total_price
+	SET change = payment – total_price.
+	PRINT “Transaction Successful! Your change is: change” 
+	ELSE 
+	PRINT “Insufficient payment! Please enter a valid amount.”
+	STOP

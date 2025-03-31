@@ -1,0 +1,8 @@
+START
+INPUT name1 and age1
+INPUT name2 and age2
+#to swap the ages
+LET age1, age2 = age1, age2
+PRINT("name1 is now age1 years old")
+PRINT("name2 is now age2 years old")
+END
